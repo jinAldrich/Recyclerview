@@ -39,8 +39,8 @@ class StaggeredHomeAdapter extends RecyclerView.Adapter<StaggeredHomeAdapter.MyV
 
         mHeights = new ArrayList<Integer>();
         for (int i = 0; i < mDatas.size(); i++) {
-//            mHeights.add((int) (100 + Math.random() * 300));
-            mHeights.add((int)100);
+            mHeights.add((int) (100 + Math.random() * 300));
+//            mHeights.add((int)100);
         }
     }
 
