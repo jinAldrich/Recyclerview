@@ -105,6 +105,10 @@ public class HomeActivity extends ActionBarActivity {
                 Intent __intent = new Intent(this, GridViewActivity.class);
                 startActivity(__intent);
                 break;
+            case R.id.id_action_drag_grid:
+                Intent ___intent = new Intent(this, DragGridViewActivity.class);
+                startActivity(___intent);
+                break;
         }
         return true;
     }
