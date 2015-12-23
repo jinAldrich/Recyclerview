@@ -21,6 +21,9 @@
             android:launchMode="singleInstance"/>
         <activity android:name="com.yujin.demo.HeaderActivity"
             android:launchMode="singleInstance"/>
+        <activity android:name="com.yujin.demo.GridViewActivity"
+            android:launchMode="singleInstance"/>
+
     </application>
 
 </manifest>

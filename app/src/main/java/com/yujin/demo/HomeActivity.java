@@ -93,7 +93,6 @@ public class HomeActivity extends ActionBarActivity {
                 mRecyclerView.setLayoutManager(new StaggeredGridLayoutManager(4,
                         StaggeredGridLayoutManager.HORIZONTAL));
                 break;
-
             case R.id.id_action_staggeredgridview:
                 Intent intent = new Intent(this, StaggeredGridLayoutActivity.class);
                 startActivity(intent);
@@ -101,6 +100,10 @@ public class HomeActivity extends ActionBarActivity {
             case R.id.id_action_header:
                 Intent _intent = new Intent(this, HeaderActivity.class);
                 startActivity(_intent);
+                break;
+            case R.id.id_action_grid_layout:
+                Intent __intent = new Intent(this, GridViewActivity.class);
+                startActivity(__intent);
                 break;
         }
         return true;

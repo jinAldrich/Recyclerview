@@ -36,4 +36,9 @@
         android:id="@+id/id_action_header"
         android:orderInCategory="100"
         android:title="header and footer"/>
+
+    <item
+        android:id="@+id/id_action_grid_layout"
+        android:orderInCategory="100"
+        android:title="gridview layout deleted"/>
 </menu>
